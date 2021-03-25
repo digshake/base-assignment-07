@@ -40,11 +40,11 @@ public class CourseAddStudentComprehensiveTest {
 
 		Random random = new Random();
 		while (enrolled.size() < capacity) {
-			boolean isColissionDesired = enrolled.size() > 1 && random.nextBoolean();
-			if (isColissionDesired) {
+			boolean isCollisionDesired = enrolled.size() > 1 && random.nextBoolean();
+			if (isCollisionDesired) {
 				int randomIndex = random.nextInt(enrolled.size());
-				Student colission = enrolled.get(randomIndex);
-				assertFalse(course.addStudent(colission));
+				Student collision = enrolled.get(randomIndex);
+				assertFalse(course.addStudent(collision));
 				assertEquals(capacity, course.getCapacity());
 				assertEquals(capacity - enrolled.size(), course.getSeatsRemaining());
 			} else {
