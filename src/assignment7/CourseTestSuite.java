@@ -7,6 +7,7 @@ import assignment7.tests.course.CourseAddStudentComprehensiveTest;
 import assignment7.tests.course.CourseAddStudentPreliminaryTest;
 import assignment7.tests.course.CourseAddUniqueStudentsSeatsRemainingTest;
 import assignment7.tests.course.CourseAverageGradePointAverageComprehensiveTest;
+import assignment7.tests.course.CourseAverageGradePointAverageEdgeCaseTest;
 import assignment7.tests.course.CourseAverageGradePointAveragePreliminaryTest;
 import assignment7.tests.course.CourseConstructorNameCreditsCapacityTest;
 import assignment7.tests.course.CourseRosterComprehensiveTest;
@@ -23,6 +24,7 @@ import assignment7.tests.course.CourseToStringTest;
 		CourseAddStudentPreliminaryTest.class, CourseAddStudentComprehensiveTest.class,
 		CourseStudentAtPreliminaryTest.class, CourseRosterPreliminaryTest.class, CourseRosterComprehensiveTest.class,
 		CourseAverageGradePointAveragePreliminaryTest.class, CourseAverageGradePointAverageComprehensiveTest.class,
-		CourseToStringIsOverriddenTest.class, CourseToStringTest.class })
+		CourseAverageGradePointAverageEdgeCaseTest.class, CourseToStringIsOverriddenTest.class,
+		CourseToStringTest.class })
 public class CourseTestSuite {
 }
